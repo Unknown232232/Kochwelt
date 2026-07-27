@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact - Bb Headphones</title>
+    <link rel="icon" type="image/svg+xml" href="./img/bg1 (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/bg1 (1).png" alt="Bb Headphones" class="logo-img"></a>
+        <nav class="menue">
+            <a href="index.html">HOME</a>
+            <a href="index.html#address">LOCATION</a>
+            <a href="about.html">ABOUT</a>
+            <a href="product.html">PRODUCT</a>
+            <a href="kontakt.html" class="active-link">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1 class="rubik">Get in touch</h1>
+            <p class="contact-lead">
+                Questions about a model, a repair or your order? Write us and we
+                answer within two working days.
+            </p>
+
+            <div class="contact-container">
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="topic">Topic</label>
+                        <select id="topic" name="topic">
+                            <option value="product">Product question</option>
+                            <option value="repair">Repair</option>
+                            <option value="order">Order</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="8" required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="form-check">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            I have read the <a href="datenschutz.html">privacy policy</a>.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="order-btn rubik contact-btn">SEND MESSAGE</button>
+                </form>
+
+                <div class="contact-info">
+                    <h2 class="rubik">Visit us</h2>
+                    <p>
+                        Schwanthalerstraße 115<br>
+                        80339 München<br>
+                        Germany
+                    </p>
+
+                    <h2 class="rubik">Opening hours</h2>
+                    <p>
+                        Monday to Friday, 10:00 - 19:00<br>
+                        Saturday, 10:00 - 16:00<br>
+                        Sunday closed
+                    </p>
+
+                    <h2 class="rubik">Phone</h2>
+                    <p>
+                        <a href="tel:+498912345678">+49 89 1234 5678</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div>
+                <b>Follow us on</b>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-icon"
+                        src="./img/Group 10 (1).png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="social-icon"
+                        src="./img/facebook (1).png" alt="Instagram"></a>
+                <a href="https://x.com/" target="_blank"><img class="social-icon" src="./img/twitter-x-icon.png"
+                        alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+            <a href="agb.html">AGB</a>
+        </div>
+    </footer>
+</body>
+
+</html>
