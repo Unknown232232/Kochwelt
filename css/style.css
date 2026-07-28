@@ -1,0 +1,99 @@
+/*MAIN-BEREICH*/
+
+body{
+    font-family: "raleway", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-inline: max(120px, calc(50% - 720px));
+}
+
+.picture-croissant{
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+}
+.hero-text{
+    width: 55%;
+}
+.heading-hero{
+    font-family: raleway;
+    
+}
+.text-hero{
+    font-family: raleway;
+    margin-bottom: 70px;
+}
+.button-hero{
+    font-family: raleway;
+    text-decoration: none;
+    background-color: #008000eb;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+.heading-section{
+    font-family: raleway;
+    text-align: center;
+}
+.picture-section{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.recipe-section{
+    margin-top: 60px;
+    height: 70dvh;
+    background-color: #8080805e;
+    padding-inline: max(120px, calc(50% - 720%));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture-box{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.picture-link{
+    display: block;
+    text-decoration: none;
+    font-family: raleway;
+    text-align: center;
+    width: 100%;
+}
+.picture-text{
+    text-align:center;
+    width: 100%;
+    font-family: raleway;
+}
+.wok-section{
+    margin-top: 30px;
+    padding-inline: max(120px, calc(50% - 720px));
+}
+.heading-wok{
+    font-family: raleway;
+    text-align: center;
+}
+.wok-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture-wok{
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+}
