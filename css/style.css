@@ -1,56 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /* ---------- Header ---------- */
 .navbar {
-    position: static;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
-    font-family: 'Raleway', sans-serif;
+  position: static;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 40px;
-    height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 80px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .logo img {
-    height: 40px;
+  height: 40px;
 }
 
 .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: #333333;
-    font-size: 16px;
-    font-weight: 500;
-    padding-bottom: 8px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
 }
 
 .nav-links a.active {
-    color: #2e8b30;
-    border-bottom: 2px solid #2e8b30;
+  color: #2e8b30;
+  border-bottom: 2px solid #2e8b30;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: rgb(122, 122, 122, 0.7);
+  color: white;
+  padding: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Die einzelnen Bereiche im Footer */
+.footer-bereich {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Überschriften */
+.footer-bereich h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Social-Media-Icons nebeneinander */
+.footer-icons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Alle Bilder innerhalb von footer-icons */
+.footer-icons img {
+  width: 44px;
+  height: 44px;
+}
+
+/* Aufzählungszeichen entfernen */
+.rechtliches-liste {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+/* Unterstreichung entfernen und Schriftfarbe ändern */
+.rechtliches-liste a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Eingabefeld und Button nebeneinander */
+.footer-form {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-form input {
+  padding: 16px;
+  border: none;
+}
+
+.footer-form button {
+  padding: 10px 16px;
+  border: none;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
 }
