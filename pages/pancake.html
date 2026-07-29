@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt - Pfannkuchen</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/img/logo_small.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+</head>
+<body>
+     <header>
+      <nav class="navbar">
+        <div class="nav-inner">
+          <a href="#top" class="logo">
+            <img src="../assets/img/logo.png" alt="Kochwelt" />
+          </a>
+
+          <ul class="nav-links">
+            <li><a href="../index.html">Start</a></li>
+            <li><a href="#bestoftheday" class="active">Rezept des Tages</a></li>
+            <li><a href="#about">Kontakt</a></li>
+            <li><a href="#kontakt">Impressum</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="rezept-main">
+      <h1 class="rezept-titel">Pfannkuchen</h1>
+      <img class="rezept-bild" src="../assets/img/pancake.jpg" alt="Pfannkuchen">
+
+      <div class="rezept-meta">
+        <span class="meta-item">⏱ 15 Min.</span>
+        <span class="meta-item">📖 Normal</span>
+        <span class="meta-item">📅 13.04.2026</span>
+      </div>
+
+      <hr class="rezept-trenner" />
+
+       <div class="portionen-bereich">
+        <label for="portionen">Zutaten für</label>
+        <input type="number" id="portionen" class="portionen-input" value="4" min="1" />
+        <button type="button" class="portionen-btn">Portionen</button>
+      </div>
+
+      <ul class="zutaten-liste">
+        <li>4 Eier</li>
+        <li>2 EL Zucker</li>
+        <li>400 ml Milch</li>
+        <li>1 Prise Salz</li>
+        <li>200 g Mehl</li>
+        <li>2 tl Backpulver</li>
+      </ul>
+
+      <h2 class="zubereitung-titel">Zubereitung</h2>
+
+      <div class="zeit-info-box">
+        <div class="zeit-info-item">
+          <span class="zeit-icon">⏱</span>
+          <div class="zeit-info-text">
+            <strong>20 Min.</strong>
+            <span class="zeit-label">Gesamtzeit</span>
+          </div>
+        </div>
+        <div class="zeit-info-item">
+          <span class="zeit-icon">⏱</span>
+          <div class="zeit-info-text">
+            <strong>5 Min.</strong>
+            <span class="zeit-label">Arbeitszeit</span>
+          </div>
+        </div>
+        <div class="zeit-info-item">
+          <span class="zeit-icon">🍽</span>
+          <div class="zeit-info-text">
+            <strong>10 Min.</strong>
+            <span class="zeit-label">Koch-/Backzeit</span>
+          </div>
+        </div>
+      </div>
+
+      <ol class="zubereitung-schritte">
+        <li>
+          <span class="schritt-nummer">1</span>
+          <p>
+            Die Eier mit dem Zucker cremig aufschlagen, dann mit der Milch verrühren. Nun Salz, Mehl und Backpulver dazugeben und alles zu einem glatten Teig rühren.
+          </p>
+        </li>
+        <li>
+          <span class="schritt-nummer">2</span>
+          <p>
+           Danach ist es von Vorteil, den Teig etwas ruhen zu lassen, da das Mehl noch ausquillt. 
+          </p>
+        </li>
+        <li>
+          <span class="schritt-nummer">3</span>
+          <p>
+            Dann 1 - 2 große Schöpfkellen Teig in eine auf mittlere Hitze erhitzte, beschichtete Pfanne geben.
+          </p>
+        </li>
+        <li>
+          <span class="schritt-nummer">4</span>
+          <p>
+            Nach ca. 2 Minuten bilden sich kleine Bläschen, dann den Pfannkuchen einmal wenden und von der anderen Seite schön goldbraun ausbacken.
+          </p>
+        </li>
+      </ol>
+       <h3 class="autor-titel">Rezept erstellt von</h3>
+
+      <div class="autor-bereich">
+        <img
+          class="autor-avatar"
+          src="../assets/img/profile.png"
+          alt="Kochwelt Redaktion"
+        />
+        <span class="autor-name">Kochwelt Redaktion</span>
+      </div>
+    </main>
+     <footer class="footer">
+      <!-- Social Media -->
+      <div class="footer-bereich">
+        <h4>Folge uns</h4>
+
+        <div class="footer-icons">
+          <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram.png" alt="Instagram" /></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook" /></a>
+          <a href="https://www.linkedin.com/" target="_blank"><img src="../assets/img/linkedin.png" alt="LinkedIn" /></a>
+          <a href="https://youtube.com/" target="_blank"><img src="../assets/img/youtube.png" alt="YouTube" /></a>
+          <a href="https://www.whatsapp.com/?lang=de" target="_blank"><img src="../assets/img/whatsapp.png" alt="WhatsApp" /></a>
+        </div>
+      </div>
+
+      <!-- Rechtliches -->
+      <div class="footer-bereich">
+        <h4>Rechtliches</h4>
+
+        <ul class="rechtliches-liste">
+          <li>
+            <a href="./pages/impressum.html"> Impressum</a>
+          </li>
+          <li>
+            <a href="./pages/datenschutz.html"> Datenschutz</a>
+          </li>
+          <li><a href="#"> AGB</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-bereich">
+        <h4>Newsletter</h4>
+
+        <form class="footer-form">
+          <input required type="email" placeholder="Email address" />
+
+          <button type="submit">Anmelden</button>
+        </form>
+      </div>
+    </footer>
+
+    
+</body>
+</html>
