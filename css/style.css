@@ -124,7 +124,7 @@
   cursor: pointer;
 }
 
-/* ---------- Rezeptseite Brokkoli-Auflauf  ---------- */
+/* ---------- Anfang Rezeptseite Brokkoli-Auflauf  ---------- */
 
 .rezept-main {
   max-width: 1000px;
@@ -305,3 +305,5 @@
   font-size: 18px;
   color: #333333;
 }
+
+/* ---------- ^^^^ Ende Rezeptseite Brokkoli-Auflauf  ^^^^  ---------- */
