@@ -491,3 +491,54 @@ img{
 }
 
 /* ---------- ^^^^ Ende Kontaktseite ^^^^ ---------- */
+
+
+
+/*IMPRESSUM*/
+
+
+.main {
+  padding: 60px 0;
+}
+
+.impressum {
+  padding: 48px;
+  background-color: #ffffff;
+  
+}
+
+.impressum h1 {
+  font-family: raleway;
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.2;
+}
+
+.impressum section {
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.impressum h2 {
+  font-family: raleway;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.35rem;
+}
+
+.impressum p {
+  font-family: raleway;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+address {
+  font-family: raleway;
+  font-style: normal;
+}
+
+
+
+
