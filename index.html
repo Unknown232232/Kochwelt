@@ -13,10 +13,17 @@
     <header>
       <nav class="navbar">
         <div class="nav-inner">
-          <a href="./index.html" class="logo">
+          <a href="#top" class="logo">
             <img src="assets/img/logo.png" alt="Kochwelt" />
           </a>
 
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+          <label for="nav-toggle" class="burger" aria-label="Menü öffnen/schließen">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <label for="nav-toggle" class="nav-overlay"></label>
           <ul class="nav-links">
             <li><a href="#home" class="active">Start</a></li>
             <li><a href="./pages/bestoftheday.html">Rezept des Tages</a></li>
@@ -42,9 +49,7 @@
             Frühstück zaubern.
           </p>
 
-          <a class="button-hero" href="./pages/bestoftheday.html"
-            >Rezept öffnen</a
-          >
+          <a class="button-hero" href="./pages/bestoftheday.html">Rezept öffnen</a>
         </div>
       </section>
       <section class="recipe-section">
@@ -73,14 +78,16 @@
             </a>
           </div>
 
-          <div class="recipe">
+         <div class="recipe">
             <a href="./pages/pancake.html">
               <img
                 class="picture-section"
                 src="./assets/img/pancake.jpg"
                 alt="Pancake"
             /></a>
-            <a class="picture-link" href="./pages/pancake.html">Pancake</a>
+            <a class="picture-link" href="./pages/pancake.html"
+              >Pancake</a
+            >
           </div>
         </div>
       </section>
@@ -96,6 +103,8 @@
           <img class="picture-wok" src="./assets/img/wok.jpg" alt="wok" />
         </div>
       </section>
+           
+       
     </main>
 
     <footer class="footer">
@@ -133,7 +142,7 @@
           <li>
             <a href="./pages/datenschutz.html"> Datenschutz</a>
           </li>
-          <li><a href="#"> AGB</a></li>
+          <li><a href="./pages/agb.html"> AGB</a></li>
         </ul>
       </div>
 

@@ -13,10 +13,17 @@
     <header>
       <nav class="navbar">
         <div class="nav-inner">
-          <a href="./index.html" class="logo">
+          <a href="#top" class="logo">
             <img src="../assets/img/logo.png" alt="Kochwelt" />
           </a>
 
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+          <label for="nav-toggle" class="burger" aria-label="Menü öffnen/schließen">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <label for="nav-toggle" class="nav-overlay"></label>
           <ul class="nav-links">
             <li><a href="../index.html">Start</a></li>
             <li><a href="#bestoftheday" class="active">Rezept des Tages</a></li>

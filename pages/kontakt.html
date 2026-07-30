@@ -13,10 +13,17 @@
     <header>
       <nav class="navbar">
         <div class="nav-inner">
-          <a href="./index.html" class="logo">
+          <a href="#top" class="logo">
             <img src="../assets/img/logo.png" alt="Kochwelt" />
           </a>
 
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+          <label for="nav-toggle" class="burger" aria-label="Menü öffnen/schließen">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <label for="nav-toggle" class="nav-overlay"></label>
           <ul class="nav-links">
             <li><a href="../index.html">Start</a></li>
             <li><a href="#bestoftheday">Rezept des Tages</a></li>
@@ -45,12 +52,7 @@
 
             <div class="form-group">
               <label for="nachricht">Deine Nachricht:</label>
-              <textarea
-                id="nachricht"
-                name="nachricht"
-                rows="6"
-                required
-              ></textarea>
+              <textarea id="nachricht" name="nachricht" rows="6" required></textarea>
             </div>
 
             <button type="submit" class="kontakt-button">Abschicken</button>
@@ -65,21 +67,11 @@
         <h4>Folge uns</h4>
 
         <div class="footer-icons">
-          <a href="https://www.instagram.com/" target="_blank"
-            ><img src="../assets/img/instagram.png" alt="Instagram"
-          /></a>
-          <a href="https://www.facebook.com/" target="_blank"
-            ><img src="../assets/img/facebook.png" alt="Facebook"
-          /></a>
-          <a href="https://www.linkedin.com/" target="_blank"
-            ><img src="../assets/img/linkedin.png" alt="LinkedIn"
-          /></a>
-          <a href="https://youtube.com/" target="_blank"
-            ><img src="../assets/img/youtube.png" alt="YouTube"
-          /></a>
-          <a href="https://www.whatsapp.com/?lang=de" target="_blank"
-            ><img src="../assets/img/whatsapp.png" alt="WhatsApp"
-          /></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram.png" alt="Instagram" /></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook" /></a>
+          <a href="https://www.linkedin.com/" target="_blank"><img src="../assets/img/linkedin.png" alt="LinkedIn" /></a>
+          <a href="https://youtube.com/" target="_blank"><img src="../assets/img/youtube.png" alt="YouTube" /></a>
+          <a href="https://www.whatsapp.com/?lang=de" target="_blank"><img src="../assets/img/whatsapp.png" alt="WhatsApp" /></a>
         </div>
       </div>
 
