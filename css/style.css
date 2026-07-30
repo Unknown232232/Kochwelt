@@ -540,7 +540,6 @@ img {
 
 .rechtliches-abschnitt p {
   margin-bottom: 15px;
-  line-height: 1.7;
 }
 
 .rechtliches-abschnitt ul {
@@ -550,7 +549,6 @@ img {
 
 .rechtliches-abschnitt li {
   margin-bottom: 8px;
-  line-height: 1.6;
 }
 
 .kontakt-daten {
@@ -558,7 +556,6 @@ img {
   border-left: 4px solid #2e8b30;
   background-color: #f0f0f0;
   font-style: normal;
-  line-height: 1.7;
 }
 
 .kontakt-daten a {
